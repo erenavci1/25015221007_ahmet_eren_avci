@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etkinlikler | Kampüs Kulübü</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header><div class="brand">Kampüs Kulübü</div><nav aria-label="Ana menü"><a href="index.html">Ana Sayfa</a>
+<a href="etkinlikler.html" aria-current="page">Etkinlikler</a>
+<a href="hakkimizda.html">Hakkımızda</a></nav></header>
+<main><p class="eyebrow">KAMPÜS KULÜBÜ</p><h1>Etkinlik takvimi</h1>
+<p class="intro">Kampüste birlikte üretmek için beş buluşma. Aşağıdaki kayıtlar eğitim amacıyla hazırlanmış örnek verilerdir.</p>
+<div role="search" aria-label="Etkinlik başlıklarında ara">
+<label for="etkinlik-ara">Etkinlik başlıklarında ara</label>
+<input type="search" id="etkinlik-ara" name="q">
+<button type="button" id="arama-temizle">Temizle</button>
+</div>
+<p id="sonuc-sayisi" aria-live="polite"></p>
+<section class="grid" aria-label="Örnek etkinlikler">
+<article><p class="meta">12 KASIM / 14.00</p><h2>HTML Atölyesi</h2><p>Başlık, paragraf ve linklerle ilk sayfanı oluştur.</p><p>Yer: Bilgisayar Laboratuvarı</p></article>
+<article><p class="meta">19 KASIM / 14.00</p><h2>CSS Tasarım Saati</h2><p>Renkleri, boşlukları ve sayfa düzenini keşfet.</p><p>Yer: Bilgisayar Laboratuvarı</p></article>
+<article><p class="meta">26 KASIM / 14.00</p><h2>Copilot ile Kod Okuma</h2><p>Kodunu açıklat, küçük bir değişiklik yap ve sonucu dene.</p><p>Yer: Çevrim içi buluşma</p></article>
+<article><p class="meta">3 ARALIK / 15.30</p><h2>Kampüs Fotoğraf Yürüyüşü</h2><p>Kampüsün sevdiğin köşelerini keşfet, ışık ve kompozisyon üzerine birlikte denemeler yap.</p><p>Yer: Merkez Kütüphane önü</p></article>
+<article><p class="meta">10 ARALIK / 13.00</p><h2>Fikirden Prototipe Tasarım Buluşması</h2><p>Küçük ekiplerle kampüs yaşamını kolaylaştıracak fikirler geliştir ve kâğıt üzerinde prototiple.</p><p>Yer: Öğrenci Merkezi, Atölye Salonu</p></article>
+</section><p class="note" id="sonuc-yok" role="status" hidden>Aramanızla eşleşen etkinlik bulunamadı.</p>
+<p class="note">Etkinlikler başlıklarına göre filtrelenir.</p></main>
+<footer>BPR201 - İnternet Tabanlı Programlama / Eğitim amaçlı örnek proje</footer>
+</body>
+</html>
